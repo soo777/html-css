@@ -8,6 +8,8 @@ header {
     width: 100%;
     height: 80px;
     background-color: #c2deee;
+    display: flex;
+    justify-content: space-between;
 }
 
 body {
@@ -23,10 +25,6 @@ li {
 
 nav {
     float: right;
-}
-
-.middle {
-    margin-right: 33%;
 }
 
 nav li {
