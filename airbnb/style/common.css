@@ -11,7 +11,7 @@ header {
     justify-content: space-between;
     position: fixed;
     top: 0;
-    color: #614c4c;
+    color: #FFFFFF;
 }
 
 body {
@@ -46,7 +46,35 @@ nav li {
     vertical-align: middle;
 }
 
-.home_image {
+.main-container {
     background-image: url('/airbnb/images/home_image.jpg');
     height: 700px;
+    color: #FFFFFF;
+}
+
+.main-container .content {
+    padding: 350px 200px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container .content div {
+    width: 1420px;
+    text-align: -webkit-center;
+}
+
+.main-container .content div div {
+    display: flex;
+    justify-content: center;
+}
+
+
+.main-container .content .search_btn {
+    width: 200px;
+    align-self: center;
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-radius: 25px;
+    padding: 20px 30px;
 }
