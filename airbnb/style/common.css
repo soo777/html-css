@@ -17,7 +17,7 @@ header {
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #58666e;
-    background-color: #f0f3f4;
+    background-color: rgb(255,255,255);
 }
 
 li {
@@ -68,7 +68,6 @@ nav li {
     justify-content: center;
 }
 
-
 .main-container .content .search_btn {
     width: 200px;
     align-self: center;
@@ -77,4 +76,51 @@ nav li {
     color: #000000;
     border-radius: 25px;
     padding: 20px 30px;
+}
+
+.box-container {
+    /* height: 200px; */
+}
+
+.box-container > div {
+    margin-top: 25px;
+}
+
+.box-container > div > div{
+    padding: 0px 100px;
+}
+
+.box-container > div > div > .title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.box-container > div > div > .box{
+    padding: 8px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.city-icon {
+    height: 64px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.city-box {
+    display: flex;
+    width: 25%;
+    padding: 10px;
+}
+
+.city-box .content-box {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.city-box .content-box .city-name {
+    font-weight: 600;
+    padding-bottom: 2px;
 }
