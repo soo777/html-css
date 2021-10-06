@@ -78,8 +78,8 @@ nav li {
     padding: 20px 30px;
 }
 
-.box-container {
-    /* height: 200px; */
+.box-container:nth-child(3) {
+    height: 450px;
 }
 
 .box-container > div {
@@ -102,6 +102,10 @@ nav li {
     flex-wrap: wrap;
 }
 
+.box-container > div > div > .box > .location {
+    width: 25%;
+}
+
 .city-icon {
     height: 64px;
     margin-right: 20px;
@@ -114,6 +118,13 @@ nav li {
     padding: 10px;
 }
 
+.location-photo {
+    width: 97%;
+    height: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
 .city-box .content-box {
     display: flex;
     flex-direction: column;
@@ -123,4 +134,9 @@ nav li {
 .city-box .content-box .city-name {
     font-weight: 600;
     padding-bottom: 2px;
+}
+
+.location .title {
+    font-size: 18px;
+    font-weight: 600;
 }
