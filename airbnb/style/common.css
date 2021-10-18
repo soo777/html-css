@@ -82,12 +82,17 @@ nav li {
     height: 450px;
 }
 
+.box-container:nth-child(5) {
+    height: 600px;
+}
+
+
 .box-container > div {
     margin-top: 25px;
 }
 
 .box-container > div > div{
-    padding: 0px 100px;
+    padding: 0px 160px;
 }
 
 .box-container > div > div > .title{
@@ -196,5 +201,43 @@ nav li {
 }
 
 .fun .content {
+    font-size: 14px;
+}
+
+.footer-container {
+    background-color: rgb(247,247,247);
+}
+
+.footer-container > div {
+    padding: 0px 160px;
+}
+
+.footer-container .link {
+    padding: 48px 0px;
+    display: flex;
+}
+
+.footer-container .last {
+    padding: 24px 0px;
+    display: flex;
+    border-top: 1px solid #DDDDDD !important;
+}
+
+.footer-container .link > div{
+    width: 25%;
+}
+
+.footer-container .header {
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.footer-container .li {
+    margin-top: 16px;
+    font-size: 14px;
+}
+
+.footer-container .last .li2 {
+    margin-right: 19px;
     font-size: 14px;
 }
